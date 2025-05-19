@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81F61F8F-78E7-EF5E-B795-7C404A8D8D21" name="genre_livre">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:37:30 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom_livre" id="6C90AC32-3A4C-8510-130B-971EB47F3CD6">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:38:18 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genre" id="0768F2F9-09AB-B79F-8CC7-0A748A4F41B9">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:38:40 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_livre1" id="060F9A36-B9EF-CC6A-A411-2880BA6BC826">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:47:08 UTC</createdTime>
+<generatorID>1BFE7BD7-9EA1-AB49-3A8B-63FB0774329C</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<referedAttribute>A5335CEE-749C-0F35-BCF7-352335F2A4D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6C2F209-0BD7-2613-81CD-1F890AF45811" name="genre_livre PK">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:38:37 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C90AC32-3A4C-8510-130B-971EB47F3CD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

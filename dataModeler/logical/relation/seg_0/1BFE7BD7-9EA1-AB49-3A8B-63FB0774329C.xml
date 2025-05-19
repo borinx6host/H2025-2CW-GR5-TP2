@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="info_genre" directorySegmentName="seg_0" id="1BFE7BD7-9EA1-AB49-3A8B-63FB0774329C">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:47:08 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<sourcePk>48E10DD7-7178-D19A-4F40-FD5C17E91E7A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>passer</nameOnSource>
+<nameOnTarget>appartenir</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11C78D2D-F826-0D43-224C-16B4097B31B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81F61F8F-78E7-EF5E-B795-7C404A8D8D21</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
