@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB2320C4-2AA8-86A7-7C55-E20E49F92046" name="emprunts">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:39:24 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom_livre" id="8487D9FE-658C-C78B-8D8E-05916AB45439">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:39:37 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_emprunteur" id="DFDFF0BA-D432-4B22-B321-DABE0E583875">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:39:53 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="97709751-F2A2-226B-A39E-50E0672DB381">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:40:17 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_livre1" id="0F042601-6AB9-9BB8-DC6A-69CAC3172FCF">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:50:14 UTC</createdTime>
+<generatorID>4B469E25-6C4C-B0AE-60BB-CC6651DCDFF3</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<referedAttribute>A5335CEE-749C-0F35-BCF7-352335F2A4D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="414D49E3-4C70-EE61-0214-3948AEBF79A1" name="emprunts PK">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:39:47 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8487D9FE-658C-C78B-8D8E-05916AB45439</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

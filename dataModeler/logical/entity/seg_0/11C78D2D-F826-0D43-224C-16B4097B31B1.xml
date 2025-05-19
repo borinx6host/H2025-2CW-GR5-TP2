@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11C78D2D-F826-0D43-224C-16B4097B31B1" name="info_livre">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:28:15 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom_livre" id="A5335CEE-749C-0F35-BCF7-352335F2A4D2">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:30:02 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auteur" id="8CE39551-BB95-3175-43A6-570F2AB29CA1">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:31:45 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_livre" id="5EAD8AEE-E2E1-F461-483C-8147C434F8A1">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:34:52 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48E10DD7-7178-D19A-4F40-FD5C17E91E7A" name="info_livre PK">
+<createdBy>petit</createdBy>
+<createdTime>2025-05-19 01:31:08 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="B8D627EC-84CA-A13F-DBEA-79FED6F012A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5335CEE-749C-0F35-BCF7-352335F2A4D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
