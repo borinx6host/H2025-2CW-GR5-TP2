@@ -1,0 +1,74 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+header {
+    padding: 10px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+}
+
+/* Book Info Section */
+.book-info {
+    width: 30%;
+    background-color: #d9e8f0; /* Light blue */
+    padding: 20px;
+    text-align: center;
+}
+
+.book-cover img {
+    width: 100%;
+    height: auto;
+}
+
+.book-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.book-details p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Book Description Section */
+.book-description {
+    width: 70%;
+    padding: 20px;
+}
+
+.book-description p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}

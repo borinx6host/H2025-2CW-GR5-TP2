@@ -65,7 +65,7 @@ nav ul li a {
     bottom: 0;
     width: 100%;
     height: 34vh; /* Bottom 1/3 */
-    background-color: #e7ddcb; /* Beige */
+    background-color: #f8f1e4; /* Beige */
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center the text */

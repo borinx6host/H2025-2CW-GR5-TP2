@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprunter un livre</title>
+    <link rel="stylesheet" href="emprunter.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inventaire.html">Inventaire</a></li>
+                <li><a href="page d'accueil.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Left Section (Form Content) -->
+        <div class="form-section">
+            <h1><strong>EMPRUNTER UN LIVRE</strong></h1>
+            <p>Veuillez emprunter le formulaire ci-dessous pour emprunter un livre à notre bibliothèque:</p>
+
+            <p><strong>Votre nom</strong> - Pour que nous sachions qui emprunte le livre</p>
+            <p><strong>Titre du livre</strong> - Le titre du livre que vous souhaitez emprunter</p>
+
+            <form action="#" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" placeholder="Valeur" required>
+
+                <label for="book-title">Titre du livre:</label>
+                <input type="text" id="book-title" name="book-title" placeholder="Valeur" required>
+
+                <button type="submit">Emprunter</button>
+            </form>
+
+            <p class="message"><strong>Bonne lecture!</strong></p>
+        </div>
+
+        <!-- Right Section (Image) -->
+        <div class="image-section">
+            <img src="images/image.png" alt="Illustration de l'emprunt">
+        </div>
+    </div>
+</body>
+</html>

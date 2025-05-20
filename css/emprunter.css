@@ -1,0 +1,48 @@
+/* General Page Styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f1e4; /* Beige */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    width: 80%;
+    height: 70vh;
+}
+
+/* Left Section (Form) */
+.form-section {
+    width: 60%; /* 3/5 of the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f1e4; /* Ensure it's visible */
+}
+
+/* Right Section (Image) */
+.image-section {
+    width: 40%; /* 2/5 of the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Image Styling with Fade Effect */
+.image-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    mask-image: linear-gradient(to right, rgba(248, 241, 228, 1) 0%, rgba(248, 241, 228, 0) 30%);
+    -webkit-mask-image: linear-gradient(to right, rgba(248, 241, 228, 1) 0%, rgba(248, 241, 228, 0) 30%);
+}
