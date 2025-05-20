@@ -1,14 +1,12 @@
-/* General Page Layout */
 html, body {
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #f8f1e4; /* Beige */
+    background-color: #f8f1e4; 
     display: flex;
 }
 
-/* Header Navigation */
 header {
     position: absolute;
     top: 20px;
@@ -30,11 +28,10 @@ nav ul li a {
     font-size: 1.2em;
 }
 
-/* Categories Box (Left 2/5) */
 .categories {
     width: 40%;
     height: 610px;
-    background-color: #ADD8E6; /* Light blue */
+    background-color: #ADD8E6; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +58,6 @@ nav ul li a {
     margin: 10px 0;
 }
 
-/* Inventaire Section (Right 3/5) */
 .inventaire {
     width: 60%;
     display: flex;
@@ -72,15 +68,13 @@ nav ul li a {
     margin-top: 20%;
 }
 
-/* Book Layout */
 .book-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three books in one row */
-    grid-template-rows: auto auto; /* Two rows */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto; 
     gap: 100px;
 }
 
-/* Each Book */
 .book {
     display: flex;
     flex-direction: column;
@@ -93,13 +87,11 @@ nav ul li a {
     height: auto;
 }
 
-/* Fourth Book Positioned Below the First */
 .book:nth-child(4) {
-    grid-column: 1; /* Aligns under the first book */
-    grid-row: 2; /* Moves to second row */
+    grid-column: 1; 
+    grid-row: 2; 
 }
 
-/* Title & Author Formatting */
 .title {
     font-size: 1.2em;
     font-weight: bold;
